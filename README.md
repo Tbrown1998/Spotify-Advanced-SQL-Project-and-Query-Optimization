@@ -14,10 +14,10 @@ This project focuses on analyzing a Spotify dataset containing detailed informat
 - **Query Language:** SQL
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions 
 
-  ### Data Source
+## Data Source
 - Dataset was downloaded from [Maven Analytics](www.maven.com)
 
-  ## Project Objectives  
+## Project Objectives  
 1. **Schemas Setup** – Establish Schemas and populate using the provided data.
 2.**Data Exploration:** - Examine and understand dataset to identify patterns, trends and relationships in the data.
 3. **Querying the Data** – Conduct an initial analysis to gain insights into the dataset's structure and key trends. Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.
@@ -313,9 +313,10 @@ To improve query performance, we carried out the following optimization process:
 ---
 
 ## Technology Stack
-- **Database**: PostgreSQL
-- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
-- **Tools**: pgAdmin 4
+- **Data Preparation & Loading** - Microsoft Excel
+- **DBMS:** PostgreSQL 
+- **Query Language:** SQL
+- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions 
 
 ---
 
