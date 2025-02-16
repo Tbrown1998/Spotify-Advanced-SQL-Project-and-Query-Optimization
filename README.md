@@ -8,10 +8,11 @@
 
 This project focuses on analyzing a Spotify dataset containing detailed information about tracks, albums, and artists using SQL. It involves the complete process of transforming a denormalized dataset into a normalized structure, executing SQL queries of varying complexity (ranging from basic to advanced), and optimizing query performance. The main objectives are to refine advanced SQL skills and extract meaningful insights from the data.
 
-## Tools Used
+## Technology Stack
 - **Data Preparation & Loading** - Microsoft Excel
 - **DBMS:** PostgreSQL 
 - **Query Language:** SQL
+- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions 
 
   ### Data Source
 - Dataset was downloaded from [Maven Analytics](www.maven.com)
