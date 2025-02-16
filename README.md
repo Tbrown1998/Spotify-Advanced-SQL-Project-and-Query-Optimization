@@ -1,6 +1,7 @@
 # Spotify-Advanced-SQL-Project-and-Query-Optimization
 
-![images (2)](https://github.com/user-attachments/assets/f6c4d816-8236-47d4-b914-813200d0f198)
+![2024-spotify-brand-assets-media-kit](https://github.com/user-attachments/assets/6d6027a3-98cc-42ce-aa82-6b5e70897958)
+
 
 ## Project Overview
 **Project Title:**  Spotify SQL Project and Query Optimization
@@ -28,7 +29,7 @@ Before diving into SQL, it’s essential to have a clear understanding of the da
 - **Track:** The name of the song.
 - **Album:** The album to which the track belongs.
 - **Album_type:** The type of album (e.g., single or album).
-- Various metrics such as danceability, energy, loudness, tempo, and more.
+- Various metrics such as `danceability`, `energy`, `loudness`, `tempo`, and more.
 
   ### 1. SCHEMA Setup
 - **Database Creation:** The project begins with setting up a database named `spotify_db`.  
@@ -313,7 +314,7 @@ To improve query performance, we carried out the following optimization process:
 ## Technology Stack
 - **Database**: PostgreSQL
 - **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
-- **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
+- **Tools**: pgAdmin 4
 
 ---
 
