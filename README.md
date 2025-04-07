@@ -30,7 +30,7 @@ This project focuses on analyzing a Spotify dataset containing detailed informat
 
 ```mermaid
 graph TD
-    A[Raw Data] --> B[SQL Cleaning]
+    A[Raw Data] --> B[SQL Database]
     B --> C[SQL Cleaning]
     C --> D[Analytical Queries]
     D --> E[Key Insights & Findings]
