@@ -12,10 +12,11 @@ This project focuses on analyzing a Spotify dataset containing detailed informat
 - **Data Preparation & Loading** - Microsoft Excel
 - **DBMS:** PostgreSQL 
 - **Query Language:** SQL
-- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions 
+- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
+- ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-Server-red?logo=microsoft-sql-server&logoColor=white)
 
 ## Data Source
-- Dataset was downloaded from [Maven Analytics](www.maven.com)
+- Dataset was downloaded from [Kaggle](www.kaggle.com)
 
 ## Project Objectives  
 1. **Schemas Setup** – Establish Schemas and populate using the provided data.
@@ -23,6 +24,19 @@ This project focuses on analyzing a Spotify dataset containing detailed informat
 3. **Querying the Data** – Conduct an initial analysis to gain insights into the dataset's structure and key trends. Utilize SQL queries to address critical business questions and extract meaningful insights from the sales data.
 4. **Query Optimization** - In advanced stages, the focus shifts to improving query performance. Some optimization strategies include:
 
+---
+
+## Data Processing Pipeline
+
+```mermaid
+graph TD
+    A[Raw Data] --> B[SQL Cleaning]
+    B --> C[SQL Cleaning]
+    C --> D[Analytical Queries]
+    D --> E[Key Insights & Findings]
+```
+
+---
 
 ## Dataset Description
 Before diving into SQL, it’s essential to have a clear understanding of the dataset. It includes attributes such as: 
@@ -321,10 +335,21 @@ To improve query performance, we carried out the following optimization process:
 ---
 
 ## 📌 About Me
-Hi, I'm Oluwatosin Amosu Bolaji, a Data Analyst skilled in SQL, Power BI, and Excel. I enjoy turning complex datasets into actionable insights through data visualization and business intelligence techniques.
+Hi, I'm Oluwatosin Amosu Bolaji, a Data Analyst with strong skills in Python, SQL, Power BI, and Excel. I turn raw data into actionable insights through automation, data storytelling, and visual analytics.
 
-- **🔹 Key Skills:** Data Analysis | SQL Queries | Power BI Dashboards | Data Cleaning | Reporting
-- **🔹 Passionate About:** Data storytelling, problem-solving, and continuous learning
+- **💡 Tools & Tech:** **Python** (Pandas, NumPy, Matplotlib, Seaborn) | **SQL** (MsSQL, Postgree, MySQL) | **Microsoft Power BI** | **Microsoft Excel**
+- **🔹 Key Skills:** Data wrangling, dashboarding, reporting, and process optimization.
+- ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-2.0.0-150458?logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-1.21.0-013243?logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5.0-blue?logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-0.11.0-black?logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-5.5.0-3F4F75?logo=plotly)
+- ![SQL](https://img.shields.io/badge/SQL-Server-red?logo=microsoft-sql-server&logoColor=white) ![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?logo=microsoft-sql-server&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+- ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black) ![DAX](https://img.shields.io/badge/DAX-F2C811?logo=powerbi&logoColor=black) ![Power Query](https://img.shields.io/badge/Power_Query-F2C811?logo=powerbi&logoColor=black)
+- ![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white)
 
-- **📫 Let's connect!**
-- 🔗 [Linkedin](www.linkedin.com/in/oluwatosin-amosu-722b88141) | 🌐 [Portfolio](https://github.com/Tbrown1998?tab=repositories) | 📩 oluwabolaji60@gmail.com
+#### 🚀 **Always learning. Always building. Data-driven to the core.**  
+
+### 📫 **Let’s connect!**  
+- 📩 oluwabolaji60@gmail.com
+- 🔗 : [LinkedIn](https://www.linkedin.com/in/oluwatosin-amosu-722b88141)
+- 🌐 : [My Portfolio](https://www.datascienceportfol.io/oluwabolaji60) 
+- 𝕏 : [Twitter/X](https://x.com/thee_oluwatosin?s=21&t=EqoeQVdQd038wlSUzAtQzw)
+- 🔗 : [Medium](https://medium.com/@oluwabolaji60)
+- 🔗 : [View my Repositories](https://github.com/Tbrown1998?tab=repositories)
